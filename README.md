@@ -1,5 +1,4 @@
 # handwritten_recognition_tensorflow
-Handwritten digits recognition with tensorflow
 
 This repository refer to the blog [Using TensorFlow<sup>TM</sup> to create your own handwriting recognition engine](http://niektemme.com/2016/02/21/tensorflow-handwriting/) and [Tensorflow|softmax bp nn|mnist数据集](http://www.math1as.com/index.php/archives/294/#comment-55). 
 
@@ -102,6 +101,7 @@ A simple package of handwritten digit recognition system in PyQt can display dir
 ```python predict_ui.py```
 
 to show a window on the screen. Click the button "input handwritten digit pictures" to choose a handwritten digit image. Then click the button "predicted number" and you can see the result in the Textbox on the window. (Path must be English.)
+
 
 
 
