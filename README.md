@@ -6,6 +6,7 @@ This repository refer to the blog [Using TensorFlow<sup>TM</sup> to create your 
 
 ### Overview
 This project uses two algorithms to train on the MNIST database. One is BP neural network(BPNN), the other is Convolution neural network(CNN). After training, the CNN training model will be saved. In another python script, the model will be restored to predict. At last, the Python GUI script achieves the handwritten digit recognition system package.
+This project run in Ubuntu 16.04 Kylin 16.04 LTS, TensorFlow 1.0, Python 2.7
 
 This projects consists of four scripts: 
 
@@ -26,13 +27,27 @@ The following Python libraries are required.
 - numpy – [NumPy](http://www.numpy.org/)
 - pyQt – [PyQt](https://www.riverbankcomputing.com/software/pyqt)
 
+### Installing Pip
+Pip is the tool to install and manage Python package.
+
+```sudo apt-get install python-pip python-dev```
+
+
 ### Installing TensorFlow
-Of course TensorFlow needs to be installed. The [TensorFlow website](https://www.tensorflow.org/versions/master/get_started/index.html) has a good manual .
+Of course TensorFlow needs to be installed. Installing is as easy as:
+
+```sudo pip install tensorflow-cpu```
+or
+```sudo pip install tensorflow-gpu```
+
+Tensorflow-gpu can make training process faster.
+
+The [TensorFlow website](https://www.tensorflow.org/versions/master/get_started/index.html) has a good manual . 
+Or refer to [TensorFlow github](https://github.com/tensorflow/tensorflow). 
+The Chinese documents refer to [Tensorflow Chinese document by 极客学院Wiki](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
 
 ### Installing Python Image Library (PIL)
 The Python Image Library (PIL) is no longer available. Luckily there is a good fork called Pillow. Installing is as easy as:
-
-```sudo apt-get install python-pip```
 
 ```sudo pip install Pillow```
 
@@ -103,5 +118,5 @@ A simple package of handwritten digit recognition system in PyQt can display dir
 to show a window on the screen. Click the button "input handwritten digit pictures" to choose a handwritten digit image. Then click the button "predicted number" and you can see the result in the Textbox on the window. (Path must be English.)
 
 
-
+If any questions, connect me with email.(814509795@qq.com)
 
